@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC7D671C1C18C6C30083FEEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D671B1C18C6C30083FEEF /* AppDelegate.swift */; };
+		FC7D671E1C18C6C30083FEEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D671D1C18C6C30083FEEF /* ViewController.swift */; };
+		FC7D67211C18C6C30083FEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7D671F1C18C6C30083FEEF /* Main.storyboard */; };
+		FC7D67231C18C6C30083FEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7D67221C18C6C30083FEEF /* Assets.xcassets */; };
+		FC7D67261C18C6C30083FEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7D67241C18C6C30083FEEF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC7D67181C18C6C30083FEEF /* colorific.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorific.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7D671B1C18C6C30083FEEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC7D671D1C18C6C30083FEEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC7D67201C18C6C30083FEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC7D67221C18C6C30083FEEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC7D67251C18C6C30083FEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC7D67271C18C6C30083FEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC7D67151C18C6C20083FEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC7D670F1C18C6C20083FEEF = {
+			isa = PBXGroup;
+			children = (
+				FC7D671A1C18C6C30083FEEF /* colorific */,
+				FC7D67191C18C6C30083FEEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC7D67191C18C6C30083FEEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC7D67181C18C6C30083FEEF /* colorific.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC7D671A1C18C6C30083FEEF /* colorific */ = {
+			isa = PBXGroup;
+			children = (
+				FC7D671B1C18C6C30083FEEF /* AppDelegate.swift */,
+				FC7D671D1C18C6C30083FEEF /* ViewController.swift */,
+				FC7D671F1C18C6C30083FEEF /* Main.storyboard */,
+				FC7D67221C18C6C30083FEEF /* Assets.xcassets */,
+				FC7D67241C18C6C30083FEEF /* LaunchScreen.storyboard */,
+				FC7D67271C18C6C30083FEEF /* Info.plist */,
+			);
+			path = colorific;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC7D67171C18C6C20083FEEF /* colorific */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7D672A1C18C6C30083FEEF /* Build configuration list for PBXNativeTarget "colorific" */;
+			buildPhases = (
+				FC7D67141C18C6C20083FEEF /* Sources */,
+				FC7D67151C18C6C20083FEEF /* Frameworks */,
+				FC7D67161C18C6C20083FEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = colorific;
+			productName = colorific;
+			productReference = FC7D67181C18C6C30083FEEF /* colorific.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7D67101C18C6C20083FEEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "ciccio boles";
+				TargetAttributes = {
+					FC7D67171C18C6C20083FEEF = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FC7D67131C18C6C20083FEEF /* Build configuration list for PBXProject "colorific" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC7D670F1C18C6C20083FEEF;
+			productRefGroup = FC7D67191C18C6C30083FEEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC7D67171C18C6C20083FEEF /* colorific */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC7D67161C18C6C20083FEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7D67261C18C6C30083FEEF /* LaunchScreen.storyboard in Resources */,
+				FC7D67231C18C6C30083FEEF /* Assets.xcassets in Resources */,
+				FC7D67211C18C6C30083FEEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC7D67141C18C6C20083FEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7D671E1C18C6C30083FEEF /* ViewController.swift in Sources */,
+				FC7D671C1C18C6C30083FEEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC7D671F1C18C6C30083FEEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7D67201C18C6C30083FEEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC7D67241C18C6C30083FEEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7D67251C18C6C30083FEEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC7D67281C18C6C30083FEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC7D67291C18C6C30083FEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC7D672B1C18C6C30083FEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = colorific/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciccio.colorific;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC7D672C1C18C6C30083FEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = colorific/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciccio.colorific;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC7D67131C18C6C20083FEEF /* Build configuration list for PBXProject "colorific" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7D67281C18C6C30083FEEF /* Debug */,
+				FC7D67291C18C6C30083FEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7D672A1C18C6C30083FEEF /* Build configuration list for PBXNativeTarget "colorific" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7D672B1C18C6C30083FEEF /* Debug */,
+				FC7D672C1C18C6C30083FEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC7D67101C18C6C20083FEEF /* Project object */;
+}

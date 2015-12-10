@@ -12,6 +12,7 @@
 		FC7D67211C18C6C30083FEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7D671F1C18C6C30083FEEF /* Main.storyboard */; };
 		FC7D67231C18C6C30083FEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7D67221C18C6C30083FEEF /* Assets.xcassets */; };
 		FC7D67261C18C6C30083FEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7D67241C18C6C30083FEEF /* LaunchScreen.storyboard */; };
+		FC7D672E1C18D7E00083FEEF /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D672D1C18D7E00083FEEF /* ColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FC7D67221C18C6C30083FEEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC7D67251C18C6C30083FEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC7D67271C18C6C30083FEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7D672D1C18D7E00083FEEF /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,13 @@
 		FC7D671A1C18C6C30083FEEF /* colorific */ = {
 			isa = PBXGroup;
 			children = (
-				FC7D671B1C18C6C30083FEEF /* AppDelegate.swift */,
+				FC7D672D1C18D7E00083FEEF /* ColorViewController.swift */,
 				FC7D671D1C18C6C30083FEEF /* ViewController.swift */,
 				FC7D671F1C18C6C30083FEEF /* Main.storyboard */,
 				FC7D67221C18C6C30083FEEF /* Assets.xcassets */,
 				FC7D67241C18C6C30083FEEF /* LaunchScreen.storyboard */,
 				FC7D67271C18C6C30083FEEF /* Info.plist */,
+				FC7D671B1C18C6C30083FEEF /* AppDelegate.swift */,
 			);
 			path = colorific;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC7D671E1C18C6C30083FEEF /* ViewController.swift in Sources */,
+				FC7D672E1C18D7E00083FEEF /* ColorViewController.swift in Sources */,
 				FC7D671C1C18C6C30083FEEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
